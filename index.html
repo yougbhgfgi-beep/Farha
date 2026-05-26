@@ -1622,7 +1622,7 @@
 
         const Counter25March = () => {
             const [time, setTime] = useState({ seconds: 0, minutes: 0, months: 0, days: 0 });
-            const start = new Date("2025-03-25T00:00:00");
+            const start = new Date("2025-03-20T00:00:00");
 
             useEffect(() => {
                 const tick = () => {
@@ -1649,7 +1649,7 @@
 
             return (
                 <div>
-                    <p className="text-[rgb(196,13,116)] font-script text-2xl md:text-3xl mb-6">من 25 مارس 2025</p>
+                    <p className="text-[rgb(196,13,116)] font-script text-2xl md:text-3xl mb-6">من 20 مارس 2025</p>
                     <div className="flex justify-center gap-4 md:gap-10 mb-8">
                         <div className="min-w-0 flex-1 max-w-[45%]">
                             <div className="text-xl xs:text-2xl sm:text-3xl md:text-5xl font-bold text-white font-premium tabular-nums truncate">{time.seconds.toLocaleString()}</div>
